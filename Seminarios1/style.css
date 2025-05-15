@@ -1,0 +1,30 @@
+    body {
+        background-color: burlywood;
+    }
+
+    #fotopessoal {
+        height: 200px;
+        width: 180px;
+    }
+
+    h2 {
+        color: brown;
+    }
+
+    #titulo {
+        color: brown;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    #nome {
+        color: brown;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    .info {
+        color: darkslategray;
+        font-size: larger;
+
+    }
