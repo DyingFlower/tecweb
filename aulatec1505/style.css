@@ -1,0 +1,31 @@
+p{ 
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+.first{
+    color: red;
+}
+.destaque{
+    color: blueviolet;
+    font-weight: bold;
+}
+#titulo-principal{
+    color: yellow;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p.destaque{
+    color:  yellow;
+    background-color: darkred;
+}
+#info{
+    font-size:  100px;
+    color: yellow;
+}
+body{
+    background-color: rgb(50, 100, 200,1);
+}
+h1{
+    color: brown;
+}
