@@ -1,0 +1,28 @@
+#descendente div p {
+  color: blueviolet;
+}
+
+#filho-direto div > p {
+  color: green;
+}
+
+#adjacente h3 + p {
+  color: red;
+}
+#irmaos h3 ~ p {
+  color: purple;
+}
+#grupo h1,h2,p {
+  font-weight: bold;
+  color: aqua;
+}
+body {
+  background-color: gray;
+}
+h3 {
+  color: yellow;
+}
+
+#combinando .container p.especial{
+    color: orange;
+}
