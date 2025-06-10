@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Informativo Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="painel">
+        <h1>Painel Informativo</h1>
+
+        <div class="mensagem" id="mensagem">
+            Bem-vindos ao novo painel informativo da escola!
+        </div>
+        <button onclick="mudarMensagem()">Mudar Mensagem</button>
+
+        <hr>
+
+        <div class="imagem-container">
+            <img id="imagem" src="https://via.placeholder.com/400x300?text=Imagem+1" alt="Imagem ilustrativa">
+        </div>
+        <button onclick="mudarImagem()">Mudar Imagem</button>
+
+        <hr>
+
+        <div class="paragrafo-ocultavel" id="paragrafo">
+            <p>Este é um parágrafo que pode ser ocultado ou mostrado conforme necessário. Aqui podem ser colocadas
+                informações importantes para os alunos, como avisos, lembretes ou notícias da escola.</p>
+        </div>
+        <button onclick="alternarParagrafo()" id="botaoParagrafo">Ocultar Parágrafo</button>
+
+        <hr>
+
+        <button onclick="mudarTextoBotao(this)">Clique para mudar meu texto</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
